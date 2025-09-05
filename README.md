@@ -12,19 +12,19 @@ Excel for data cleaning and uploading SQL Server for querrying the data to uncov
 
 ### EXPLORATORY DATA ANALYSIS
 The Data was explored to answer the following questions.
-1. What is the average age of patients by gender?‎
-‎2. Which blood type is most common among patients?
-‎‎3. How many patients fall into different age groups (e.g., 0–18, 19–35, 36–60, 61+)?
-‎‎4. What is the distribution of patients by admission type (Emergency, Elective, Urgent)?
-‎‎5. Which hospital has admitted the highest number of patients?
-‎‎6. What is the average length of stay (Discharge Date – Admission Date) by hospital?
-‎7. Which medications are prescribed most frequently for each medical condition?
-‎‎8. Which doctors have treated the most patients for each condition?
-‎‎9. Which insurance provider covers the highest total billing amount?
-‎10. What is the average billing amount per admission type?
-‎‎11. Which doctor has the highest average billing per patient?
-‎‎12. Which doctor treated the most patients in emergency admissions?
-‎13. What percentage of patients had “Normal”, “Abnormal”, or “Inconclusive” test results?
-14. Is there a relationship between medical condition and test results?
-‎‎15. Which hospital records the highest percentage of abnormal test results?
+-  What is the average age of patients by gender?‎
+-  Which blood type is most common among patients?
+-  How many patients fall into different age groups (e.g., 0–18, 19–35, 36–60, 61+)?
+-  What is the distribution of patients by admission type (Emergency, Elective, Urgent)?
+-  Which hospital has admitted the highest number of patients?
+-  What is the average length of stay (Discharge Date – Admission Date) by hospital?
+-  Which medications are prescribed most frequently for each medical condition?
+-  Which doctors have treated the most patients for each condition?
+-  Which insurance provider covers the highest total billing amount?
+-  What is the average billing amount per admission type?
+-  Which doctor has the highest average billing per patient?
+‎‎-  Which doctor treated the most patients in emergency admissions?
+‎-  What percentage of patients had “Normal”, “Abnormal”, or “Inconclusive” test results?
+-  Is there a relationship between medical condition and test results?
+‎‎-  Which hospital records the highest percentage of abnormal test results?
 
