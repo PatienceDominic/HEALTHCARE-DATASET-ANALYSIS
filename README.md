@@ -55,3 +55,18 @@ order by count desc
 ```
 ```AB-	1275
 ```
+---- QUESTION 3
+---- How many patients fall into different age groups (e.g., 0–18, 19–35, 36–60, 61+)?
+
+---- QUESTION 4
+---- What is the distribution of patients by admission type (Emergency, Elective, Urgent)?
+```SQL
+select Admission_Type,
+   count(*) AS patient_count
+from  [dbo].[Healthcare_Dataset]
+group by Admission_Type
+```
+```Emergency	3367
+Urgent	3391
+Elective	3242
+```
