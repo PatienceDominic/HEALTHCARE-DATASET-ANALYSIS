@@ -28,3 +28,11 @@ The Data was explored to answer the following questions.
 -  Is there a relationship between medical condition and test results?
 ‎‎-  Which hospital records the highest percentage of abnormal test results?
 
+----- QUESTION 1
+----- What is the average age of patients by gender?‎
+
+``` SQL
+select Gender, AVG(Age) AS Average_Age
+from [dbo].[Healthcare_Dataset]
+group by Gender
+```
