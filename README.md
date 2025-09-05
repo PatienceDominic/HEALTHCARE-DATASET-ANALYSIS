@@ -43,3 +43,15 @@ Male	51
 Female	51
 
 ```
+---- QUESTION 2
+----  Which blood type is most common among patients?
+
+```SQL
+select TOP 1 Blood_Type, count(*) AS count
+from [dbo].[Healthcare_Dataset]
+group by Blood_Type
+order by count desc
+
+```
+```AB-	1275
+```
