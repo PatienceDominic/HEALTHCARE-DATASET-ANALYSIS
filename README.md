@@ -32,7 +32,14 @@ The Data was explored to answer the following questions.
 ----- What is the average age of patients by gender?‎
 
 ``` SQL
+
 select Gender, AVG(Age) AS Average_Age
 from [dbo].[Healthcare_Dataset]
 group by Gender
+
+```
+```sql
+Male	51
+Female	51
+
 ```
