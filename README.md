@@ -41,6 +41,7 @@ group by Gender
 ```sql
 Male	51
 Female	51
+ Screenshot (28).png
 
 ```
 ---- QUESTION 2
