@@ -63,7 +63,8 @@ order by count desc
 
 ```
 
-``` AB-	1275
+```
+     AB-	1275
 ```
 - From the Healthcare Dataset, the frequency of patient blood types was analyzed. The results shows that:
 	- Blood Type AB- is the most common, with 1,275 patients.
@@ -90,10 +91,18 @@ GROUP BY
     END
 ```
 ```  61+	3661
-    0-18	164
-   19-35	2490
-   36-60	3685
+     0-18	164
+     19-35	2490
+     36-60	3685
 ```
+#### Summary of Patients by Age Group
+
+- The dataset was analyzed by categorizing patients into four age ranges: 0–18, 19–35, 36–60, and 61+. The results show the following distribution:
+	- 0–18 years → 164 patients (youngest and smallest group).
+	- 19–35 years → 2,490 patients (a significant portion, representing young adults).
+	- 36–60 years → 3,685 patients (the largest group, indicating middle-aged patients form the majority).
+	- 61+ years → 3,661 patients (a similarly large group, showing strong representation of elderly patients).
+- The population skews heavily toward middle-aged and elderly patients, with relatively few in the pediatric category (0–18).
 
 ---- QUESTION 4
 ---- What is the distribution of patients by admission type (Emergency, Elective, Urgent)?
