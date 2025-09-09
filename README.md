@@ -58,6 +58,29 @@ order by count desc
 ```
 ---- QUESTION 3
 ---- How many patients fall into different age groups (e.g., 0–18, 19–35, 36–60, 61+)?
+``` sql
+SELECT 
+    CASE 
+        WHEN Age BETWEEN 0 AND 18 THEN '0-18'
+        WHEN Age BETWEEN 19 AND 35 THEN '19-35'
+        WHEN Age BETWEEN 36 AND 60 THEN '36-60'
+        WHEN Age >= 61 THEN '61+'
+    END AS Age_Group,
+    COUNT(*) AS Patient_Count
+FROM Healthcare_Dataset
+GROUP BY 
+    CASE 
+        WHEN Age BETWEEN 0 AND 18 THEN '0-18'
+        WHEN Age BETWEEN 19 AND 35 THEN '19-35'
+        WHEN Age BETWEEN 36 AND 60 THEN '36-60'
+        WHEN Age >= 61 THEN '61+'
+    END
+```
+```  61+	3661
+    0-18	164
+   19-35	2490
+   36-60	3685
+```
 
 ---- QUESTION 4
 ---- What is the distribution of patients by admission type (Emergency, Elective, Urgent)?
