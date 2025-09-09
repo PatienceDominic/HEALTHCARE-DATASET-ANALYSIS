@@ -64,6 +64,10 @@ order by count desc
 ```
 ```AB-	1275
 ```
+- From the Healthcare Dataset, the frequency of patient blood types was analyzed. The results shows that:
+	- Blood Type AB- is the most common, with 1,275 patients.
+- This suggests that AB-, while generally considered rare in the global population, is disproportionately more frequent in this dataset. This could be due to the sample characteristics or demographic distribution of patients included.
+
 ---- QUESTION 3
 ---- How many patients fall into different age groups (e.g., 0–18, 19–35, 36–60, 61+)?
 ``` sql
