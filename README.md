@@ -8,7 +8,8 @@ The project Healthcare Dataset Analysis is focused on analyzing hospital dataset
 The datasets is gotten from Electrical Medical Records a Health Institutions.
 
 ### TOOL USED
-Excel for data cleaning and uploading SQL Server for querrying the data to uncover trends and performance metrics
+- SQL SERVER 2022 for Data cleaning uploading and querying
+- Excel for Visualization
 
 ### EXPLORATORY DATA ANALYSIS
 The Data was explored to answer the following questions.
