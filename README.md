@@ -113,9 +113,18 @@ from  [dbo].[Healthcare_Dataset]
 group by Admission_Type
 ```
 ```Emergency	3367
-Urgent	3391
-Elective	3242
+   Urgent	    3391
+   Elective	    3242
 ```
+#### Summary of Patients by Admission Type
+
+- The dataset was analyzed to determine how patients are admitted (Emergency, Elective, or Urgent). The distribution is as follows:
+	- Emergency Admissions → 3,367 patients
+	- Urgent Admissions → 3,391 patients
+	- Elective Admissions → 3,242 patients
+- Key Insight:
+The counts across all three admission types are very close in number, suggesting a balanced distribution. Slightly more patients are admitted under Urgent and Emergency categories, while Elective admissions are only marginally fewer.
+
 ---- QUESTION 5
 ---- Which hospital has admitted the highest number of patients?
 
@@ -133,6 +142,13 @@ order by NameCount desc
 Smith PLC	19
 
 ```
+#### Summary of Hospital with Highest Admissions
+
+- From the Healthcare Dataset, hospital admissions were grouped and ranked by the number of patients admitted. The analysis shows that:
+	- Smith PLC admitted the highest number of patients, with a total of 19 admissions.
+-  Key Insight:
+While Smith PLC leads, the relatively small maximum admission count (19) suggests that the dataset may represent either a subset of overall records or data focused on select facilities rather than a large-scale hospital system.
+
 ----- QUESTION 6
 ----- What is the average length of stay (Discharge Date – Admission Date) by hospital?
 
