@@ -62,6 +62,7 @@ group by Blood_Type
 order by count desc
 
 ```
+
 ``` AB-	1275
 ```
 - From the Healthcare Dataset, the frequency of patient blood types was analyzed. The results shows that:
