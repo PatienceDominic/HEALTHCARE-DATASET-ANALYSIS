@@ -45,6 +45,13 @@ Female	51
  Screenshot (28).png
 
 ```
+#### Summary of Average Age by Gender
+
+- Based on the analysis of the Healthcare Dataset, the average age of patients was calculated and grouped by gender. The results show that:
+	- Male Patients: The average age is 51 years.
+	- Female Patients: The average age is also 51 years.
+- Indicating that there is no significant difference in the average age between male and female patients within the dataset. Both groups fall into the middle-age category,     suggesting a balanced age distribution across genders.
+
 ---- QUESTION 2
 ----  Which blood type is most common among patients?
 
